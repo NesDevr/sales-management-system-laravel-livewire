@@ -15,43 +15,43 @@ class UserSeeder extends Seeder
     {
         //
         User::create([
-            'name' => 'Nes GC',
-            'phone' => '2333035355',
-            'email' => 'nesgc@gmail.com',
+            'name' => 'Alex Morgan',
+            'phone' => '5550101001',
+            'email' => 'alex.admin@example.com',
             'profile' => 'super-admin',
             'status' => 'ACTIVE',
             'password' => bcrypt('admin'),
             'image' => 'users/mapache.jpg'
         ]);
         User::create([
-            'name' => 'Kevin Mad',
-            'phone' => '785035355',
-            'email' => 'kevin@gmail.com',
+            'name' => 'Jordan Lee',
+            'phone' => '5550101002',
+            'email' => 'jordan.admin@example.com',
             'profile' => 'Super-Admin',
             'status' => 'ACTIVE',
             'password' => bcrypt('admin')
         ]);
 
         User::create([
-            'name' => 'Manuel Espinas',
-            'phone' => '7850353552',
-            'email' => 'manuel@gmail.com',
+            'name' => 'Taylor Brooks',
+            'phone' => '5550101003',
+            'email' => 'taylor.admin@example.com',
             'profile' => 'Super-Admin',
             'status' => 'ACTIVE',
             'password' => bcrypt('admin')
         ]);
         User::create([
-            'name' => 'Marcos Angel',
-            'phone' => '7850353551',
-            'email' => 'marcos@gmail.com',
+            'name' => 'Casey Rivera',
+            'phone' => '5550101004',
+            'email' => 'casey.admin@example.com',
             'profile' => 'Super-Admin',
             'status' => 'ACTIVE',
             'password' => bcrypt('admin')
         ]);
         User::create([
-            'name' => 'Melisa Hall',
-            'phone' => '785035355',
-            'email' => 'melisah@gmail.com',
+            'name' => 'Riley Carter',
+            'phone' => '5550101005',
+            'email' => 'riley.employee@example.com',
             'profile' => 'Employee',
             'status' => 'LOCKED',
             'password' => bcrypt('admin')

@@ -140,7 +140,7 @@
     <!--  BEGIN FOOTER  -->
     <div class="d-flex justify-content-center footer-wrapper">
         <div class="footer-section d-flex justify-content-center f-section-1">
-            <p class="d-flex justify-content-center">Copyright Nesgc 2023,
+            <p class="d-flex justify-content-center">Copyright NesDevr 2023,
                 All rights reserved.</p>
         </div>
 
